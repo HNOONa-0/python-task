@@ -14,7 +14,7 @@ is_number_err={
     1:"Please enter a valid number"
 }
 is_validx_err={
-    1:"Interval betweem x1, x2 is too large. The distance between x1,x2 must not exceed 1000,000"
+    1:"Interval betweem x1, x2 is too large. The distance between x1,x2 must not exceed "+str(MAX_DISTANCE)
 }
 operators=['+','-','*','/','^']
 valid_functions=[
